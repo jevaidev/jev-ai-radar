@@ -77,6 +77,10 @@ The first release intentionally keeps the infrastructure simple:
 
 Data is reviewed before publication. Project descriptions summarize public sources and should not be treated as security, performance, or quality endorsements.
 
+## Discovery sources
+
+Radar candidates may be discovered through community indexes such as [awesome-jev](https://github.com/yibie/awesome-jev). Every published entry is checked against its original repository, post, video, or another primary source. We do not copy third-party summaries, classifications, or endorsements.
+
 ## Contribute
 
 Found a new Jev project, System One experiment, or real-world use case? [Open a submission issue](../../issues/new?template=submit.yml) or read [`CONTRIBUTING.md`](CONTRIBUTING.md).
@@ -86,4 +90,3 @@ If this radar helps you discover something useful, please **Star the repository*
 ## License and attribution
 
 Original summaries and curated metadata in this repository are licensed under [CC BY 4.0](LICENSE.md). Linked repositories, posts, videos, names, and trademarks remain the property of their respective owners.
-
