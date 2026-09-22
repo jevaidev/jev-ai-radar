@@ -1,0 +1,566 @@
+{
+  "updatedAt": "2026-09-22T03:05:15.690Z",
+  "projects": [
+    {
+      "name": "Jev Ultrafast",
+      "repository": "browser-use/jev-ultrafast",
+      "url": "https://github.com/browser-use/jev-ultrafast",
+      "kind": "Tool",
+      "summary": "A browser agent that asks Jev to choose an operation and page element from live DOM state; a separate text model handles typing.",
+      "scenarios": [
+        "agents"
+      ],
+      "relatedCases": [
+        "agents"
+      ],
+      "stars": 16112,
+      "language": "Python",
+      "license": "MIT",
+      "createdAt": "2026-09-16T21:30:12Z",
+      "lastCommitAt": "2026-09-18T16:28:35Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "fast-jev-compaction",
+      "repository": "tamaratran/fast-jev-compaction",
+      "url": "https://github.com/tamaratran/fast-jev-compaction",
+      "kind": "Tool",
+      "summary": "A Claude Code plugin that uses Jev to keep, trim or drop tool calls and results while preserving conversation text.",
+      "scenarios": [
+        "agents",
+        "engineering"
+      ],
+      "relatedCases": [
+        "agents"
+      ],
+      "stars": 6014,
+      "language": "TypeScript",
+      "license": "MIT",
+      "createdAt": "2026-09-17T05:57:20Z",
+      "lastCommitAt": "2026-09-17T22:29:18Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "jev-trader",
+      "repository": "jarrodwatts/jev-trader",
+      "url": "https://github.com/jarrodwatts/jev-trader",
+      "kind": "App",
+      "summary": "A Monad order-book bot with an optional Jev mode for buy or sell decisions; its default run uses a mock heuristic.",
+      "scenarios": [
+        "agents"
+      ],
+      "relatedCases": [
+        "agents"
+      ],
+      "stars": 1871,
+      "language": "TypeScript",
+      "license": "MIT",
+      "createdAt": "2026-09-16T21:36:20Z",
+      "lastCommitAt": "2026-09-17T02:48:21Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "Jev Review",
+      "repository": "devagrawal09/jev-review",
+      "url": "https://github.com/devagrawal09/jev-review",
+      "kind": "Tool",
+      "summary": "Reviews diffs or codebases through staged Jev judgments about risk, evidence and severity, with a local dashboard.",
+      "scenarios": [
+        "engineering",
+        "safety"
+      ],
+      "relatedCases": [
+        "safety"
+      ],
+      "stars": 496,
+      "language": "TypeScript",
+      "license": "MIT",
+      "createdAt": "2026-09-16T21:45:36Z",
+      "lastCommitAt": "2026-09-17T00:29:22Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "Foreman",
+      "repository": "thruwire/foreman",
+      "url": "https://github.com/thruwire/foreman",
+      "kind": "Tool",
+      "summary": "Supervises coding agents with Jev judgments about progress, verification and when a worker needs intervention.",
+      "scenarios": [
+        "agents",
+        "engineering"
+      ],
+      "relatedCases": [
+        "agents"
+      ],
+      "stars": 468,
+      "language": "Python",
+      "license": "MIT",
+      "createdAt": "2026-09-17T11:46:13Z",
+      "lastCommitAt": "2026-09-20T13:48:21Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "Jev Search",
+      "repository": "superagents-lab/jev-search",
+      "url": "https://github.com/superagents-lab/jev-search",
+      "kind": "App",
+      "summary": "Uses Jev to choose search sources and rank results returned through Search1API, showing links instead of generated answers.",
+      "scenarios": [
+        "search"
+      ],
+      "relatedCases": [
+        "recommendations"
+      ],
+      "stars": 382,
+      "language": "TypeScript",
+      "license": "MIT",
+      "createdAt": "2026-09-17T18:05:10Z",
+      "lastCommitAt": "2026-09-20T18:37:05Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "Mobile Jev",
+      "repository": "droidrun/mobile-jev",
+      "url": "https://github.com/droidrun/mobile-jev",
+      "kind": "App",
+      "summary": "A mobile agent that uses Jev to choose actions on an Android device through Mobilerun, with a live studio and execution traces.",
+      "scenarios": [
+        "agents"
+      ],
+      "relatedCases": [
+        "agents"
+      ],
+      "stars": 328,
+      "language": "JavaScript",
+      "license": "MIT",
+      "createdAt": "2026-09-17T10:41:01Z",
+      "lastCommitAt": "2026-09-17T12:51:55Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "jev-router",
+      "repository": "gargpratyush/jev-router",
+      "url": "https://github.com/gargpratyush/jev-router",
+      "kind": "Tool",
+      "summary": "Routes each Claude Code or Codex turn to a model tier using Jev while keeping the existing CLI workflow.",
+      "scenarios": [
+        "agents"
+      ],
+      "relatedCases": [
+        "agents"
+      ],
+      "stars": 314,
+      "language": "JavaScript",
+      "license": "MIT",
+      "createdAt": "2026-09-16T20:39:22Z",
+      "lastCommitAt": "2026-09-19T08:37:38Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "jev-align",
+      "repository": "sutro-sh/jev-align",
+      "url": "https://github.com/sutro-sh/jev-align",
+      "kind": "Tool",
+      "summary": "A CLI that combines Jev decisions, human labels and GEPA to improve fixed-output classifiers and review each proposed change.",
+      "scenarios": [
+        "engineering"
+      ],
+      "relatedCases": [],
+      "stars": 270,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "createdAt": "2026-09-19T02:12:23Z",
+      "lastCommitAt": "2026-09-20T20:49:51Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "Jev MCP",
+      "repository": "jkudish/jev-mcp",
+      "url": "https://github.com/jkudish/jev-mcp",
+      "kind": "Tool",
+      "summary": "An MCP server offering Jev-backed tools for verification, screening, ranking, classification and code review.",
+      "scenarios": [
+        "sdk",
+        "agents"
+      ],
+      "relatedCases": [
+        "agents"
+      ],
+      "stars": 241,
+      "language": "JavaScript",
+      "license": "MIT",
+      "createdAt": "2026-09-17T02:25:38Z",
+      "lastCommitAt": "2026-09-21T23:47:26Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "Jev Browser",
+      "repository": "jkudish/jev-browser",
+      "url": "https://github.com/jkudish/jev-browser",
+      "kind": "Tool",
+      "summary": "Uses Jev to select actions in a headless browser, then returns a step trace, final page and screenshot.",
+      "scenarios": [
+        "agents"
+      ],
+      "relatedCases": [
+        "agents"
+      ],
+      "stars": 229,
+      "language": "TypeScript",
+      "license": "MIT",
+      "createdAt": "2026-09-17T19:22:28Z",
+      "lastCommitAt": "2026-09-21T19:05:23Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "TypeSafe JavaScript / TypeScript SDK",
+      "repository": "typesafe-ai/typesafe-sdk-js",
+      "url": "https://github.com/typesafe-ai/typesafe-sdk-js",
+      "kind": "SDK",
+      "summary": "The official TypeSafe client for sending typed questions and reading structured Jev responses in JavaScript or TypeScript.",
+      "scenarios": [
+        "sdk"
+      ],
+      "relatedCases": [],
+      "stars": 214,
+      "language": "TypeScript",
+      "license": "MIT",
+      "createdAt": "2026-09-04T22:16:47Z",
+      "lastCommitAt": "2026-09-15T18:16:33Z",
+      "archived": false,
+      "official": true,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "TypeSafe Python SDK",
+      "repository": "typesafe-ai/typesafe-sdk-python",
+      "url": "https://github.com/typesafe-ai/typesafe-sdk-python",
+      "kind": "SDK",
+      "summary": "The official TypeSafe Python client for sending typed Jev questions and reading structured results.",
+      "scenarios": [
+        "sdk"
+      ],
+      "relatedCases": [],
+      "stars": 186,
+      "language": "Python",
+      "license": "MIT",
+      "createdAt": "2026-09-04T21:01:31Z",
+      "lastCommitAt": "2026-09-21T15:57:06Z",
+      "archived": false,
+      "official": true,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "Perch",
+      "repository": "lakeday-org/perch",
+      "url": "https://github.com/lakeday-org/perch",
+      "kind": "Tool",
+      "summary": "A semantic code linter that applies custom rules with Jev and ranks potential issues for review.",
+      "scenarios": [
+        "engineering",
+        "safety"
+      ],
+      "relatedCases": [
+        "safety"
+      ],
+      "stars": 167,
+      "language": "JavaScript",
+      "license": "MIT",
+      "createdAt": "2026-09-16T04:55:38Z",
+      "lastCommitAt": "2026-09-21T23:34:16Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "Jev for Home Assistant",
+      "repository": "AboveColin/HA-Jev",
+      "url": "https://github.com/AboveColin/HA-Jev",
+      "kind": "Integration",
+      "summary": "Turns Jev choices, scores and probabilities into Home Assistant entities and automation actions.",
+      "scenarios": [
+        "personal"
+      ],
+      "relatedCases": [
+        "personal"
+      ],
+      "stars": 44,
+      "language": "Python",
+      "license": "MIT",
+      "createdAt": "2026-09-17T11:01:48Z",
+      "lastCommitAt": "2026-09-21T19:41:20Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "jev-calibrate",
+      "repository": "smkrv/jev-calibrate",
+      "url": "https://github.com/smkrv/jev-calibrate",
+      "kind": "Tool",
+      "summary": "Tests Jev questions against labelled tune and holdout data, reporting errors, calibration and whether each question can safely gate or rank.",
+      "scenarios": [
+        "engineering",
+        "sdk"
+      ],
+      "relatedCases": [
+        "safety"
+      ],
+      "stars": 31,
+      "language": "TypeScript",
+      "license": "MIT",
+      "createdAt": "2026-09-21T11:36:40Z",
+      "lastCommitAt": "2026-09-21T13:14:12Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "Sharp",
+      "repository": "tshmieldev/sharp",
+      "url": "https://github.com/tshmieldev/sharp",
+      "kind": "App",
+      "summary": "A browser extension that filters an X feed with plain-language rules, using Jev or another compatible model chosen by the user.",
+      "scenarios": [
+        "personal",
+        "safety"
+      ],
+      "relatedCases": [
+        "personal"
+      ],
+      "stars": 30,
+      "language": "TypeScript",
+      "license": "MIT",
+      "createdAt": "2026-09-08T09:03:04Z",
+      "lastCommitAt": "2026-09-21T13:18:03Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "jev-guard",
+      "repository": "leepokai/jev-guard",
+      "url": "https://github.com/leepokai/jev-guard",
+      "kind": "Tool",
+      "summary": "Applies Jev judgments to coding-agent tool calls and untrusted results before allowing, asking or denying an action.",
+      "scenarios": [
+        "safety",
+        "agents"
+      ],
+      "relatedCases": [
+        "safety",
+        "agents"
+      ],
+      "stars": 20,
+      "language": "JavaScript",
+      "license": "MIT",
+      "createdAt": "2026-09-17T14:39:28Z",
+      "lastCommitAt": "2026-09-17T18:44:09Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "Jeview",
+      "repository": "andududu/jeview",
+      "url": "https://github.com/andududu/jeview",
+      "kind": "Tool",
+      "summary": "A local gateway and visualizer that records Jev requests and answers in SQLite and maps calls live while an app runs.",
+      "scenarios": [
+        "engineering",
+        "agents"
+      ],
+      "relatedCases": [
+        "agents"
+      ],
+      "stars": 18,
+      "language": "JavaScript",
+      "license": "MIT",
+      "createdAt": "2026-09-21T14:03:13Z",
+      "lastCommitAt": "2026-09-21T20:32:53Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "Laya vs Jev Arena",
+      "repository": "PromptEngineer48/laya-vs-jev-arena",
+      "url": "https://github.com/PromptEngineer48/laya-vs-jev-arena",
+      "kind": "Game",
+      "summary": "Pits local Laya against Jev in Snake races and a fighting-game arena, with every move made by a live model decision.",
+      "scenarios": [
+        "games"
+      ],
+      "relatedCases": [
+        "games"
+      ],
+      "stars": 16,
+      "language": "JavaScript",
+      "license": "MIT",
+      "createdAt": "2026-09-21T06:11:56Z",
+      "lastCommitAt": "2026-09-21T06:11:48Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "Jev Cookbook",
+      "repository": "nexibeo/jev-cookbook",
+      "url": "https://github.com/nexibeo/jev-cookbook",
+      "kind": "Examples",
+      "summary": "Fifteen tested Jev recipes covering support triage, file organization, PII checks, search reranking, browser actions and more.",
+      "scenarios": [
+        "sdk",
+        "support",
+        "search",
+        "safety",
+        "agents"
+      ],
+      "relatedCases": [
+        "support",
+        "recommendations",
+        "agents",
+        "safety"
+      ],
+      "stars": 15,
+      "language": "JavaScript",
+      "license": "MIT",
+      "createdAt": "2026-09-19T10:10:45Z",
+      "lastCommitAt": "2026-09-19T14:43:18Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "evoke",
+      "repository": "evoke-build/evoke",
+      "url": "https://github.com/evoke-build/evoke",
+      "kind": "Tool",
+      "summary": "A CLI, package manager and SDK where Jev selects a small installed program from a plain-language request and confidence gates its execution.",
+      "scenarios": [
+        "agents",
+        "personal",
+        "engineering"
+      ],
+      "relatedCases": [
+        "agents",
+        "personal"
+      ],
+      "stars": 10,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "createdAt": "2026-09-21T08:44:53Z",
+      "lastCommitAt": "2026-09-22T00:47:57Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "Jev Foundation Models",
+      "repository": "peterfriese/jev-foundation-models",
+      "url": "https://github.com/peterfriese/jev-foundation-models",
+      "kind": "Integration",
+      "summary": "A native Swift 6 bridge that combines Apple Foundation Models with Jev for typed, probability-bearing decisions.",
+      "scenarios": [
+        "sdk",
+        "agents"
+      ],
+      "relatedCases": [
+        "agents"
+      ],
+      "stars": 8,
+      "language": "Swift",
+      "license": "Apache-2.0",
+      "createdAt": "2026-09-21T17:25:54Z",
+      "lastCommitAt": "2026-09-21T18:02:12Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "HEIST//ONE",
+      "repository": "AbdelStark/heist-one",
+      "url": "https://github.com/AbdelStark/heist-one",
+      "kind": "Game",
+      "summary": "A stealth game where Jev proposes guard judgments and deterministic game code validates and applies them.",
+      "scenarios": [
+        "games"
+      ],
+      "relatedCases": [
+        "games"
+      ],
+      "stars": 7,
+      "language": "TypeScript",
+      "license": "MIT",
+      "createdAt": "2026-09-17T07:29:14Z",
+      "lastCommitAt": "2026-09-17T14:39:00Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "Jev for Engineers",
+      "repository": "Foadsf/jev-for-engineers",
+      "url": "https://github.com/Foadsf/jev-for-engineers",
+      "kind": "Examples",
+      "summary": "Eight Python examples of Jev decisions in engineering tasks, including CAD routing, FEM triage and BOM alignment.",
+      "scenarios": [
+        "engineering",
+        "sdk"
+      ],
+      "relatedCases": [],
+      "stars": 2,
+      "language": "Python",
+      "license": "MIT",
+      "createdAt": "2026-09-16T23:17:23Z",
+      "lastCommitAt": "2026-09-16T23:19:13Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    },
+    {
+      "name": "TypeSafe Jev Examples",
+      "repository": "rajivkuriakose/typesafe-jev-examples",
+      "url": "https://github.com/rajivkuriakose/typesafe-jev-examples",
+      "kind": "Examples",
+      "summary": "Runnable Python examples through OpenRouter, including support-ticket triage and offline tests.",
+      "scenarios": [
+        "support",
+        "sdk"
+      ],
+      "relatedCases": [
+        "support"
+      ],
+      "stars": 2,
+      "language": "Python",
+      "license": "MIT",
+      "createdAt": "2026-09-18T15:11:04Z",
+      "lastCommitAt": "2026-09-18T16:49:39Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-09-22T03:05:15.690Z"
+    }
+  ]
+}

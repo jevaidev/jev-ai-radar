@@ -1,0 +1,51 @@
+name: Submit a project or use case
+description: Suggest a Jev project, System One experiment, or public use case.
+title: "[Submission]: "
+labels:
+  - submission
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Submission type
+      options:
+        - Jev project or integration
+        - System One community model or interface
+        - Real-world use case
+        - Correction to an existing item
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Public source URL
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What does it demonstrate?
+      description: Describe the concrete decision or workflow in your own words.
+    validations:
+      required: true
+  - type: input
+    id: relationship
+    attributes:
+      label: Relationship to Jev or System One
+      placeholder: Uses the Jev API for Choice decisions
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence and limitations
+      description: Include documentation, demos, benchmarks, or limitations that reviewers should check.
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Submission confirmation
+      options:
+        - label: I confirm that this is a public source and the description is accurate to the best of my knowledge.
+          required: true
+

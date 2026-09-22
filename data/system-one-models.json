@@ -1,0 +1,116 @@
+{
+  "updatedAt": "2026-09-22",
+  "notice": "Independent community projects; not official TypeSafe Jev releases.",
+  "projects": [
+    {
+      "key": "nimble",
+      "name": "Bespoke Nimble",
+      "repo": "bespokelabsai/nimble",
+      "base": "Qwen3.5-9B",
+      "kind": "model",
+      "featured": true,
+      "url": "https://github.com/bespokelabsai/nimble",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "nanojev",
+      "name": "NanoJev",
+      "repo": "TianyuCodings/NanoJev",
+      "base": "Qwen3-0.6B",
+      "kind": "model",
+      "featured": false,
+      "url": "https://github.com/TianyuCodings/NanoJev",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "decider",
+      "name": "decider",
+      "repo": "Mapika/decider",
+      "base": "Qwen3.5-2B",
+      "kind": "model",
+      "featured": false,
+      "url": "https://github.com/Mapika/decider",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "verdict",
+      "name": "Verdict",
+      "repo": "Heman10x-NGU/Verdict-open-jev",
+      "base": "ModernBERT 151M",
+      "kind": "model",
+      "featured": true,
+      "url": "https://github.com/Heman10x-NGU/Verdict-open-jev",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "dohnuts",
+      "name": "Dohnuts",
+      "repo": "PsiACE/dohnuts",
+      "base": "Qwen3.5-0.8B",
+      "kind": "model",
+      "featured": false,
+      "url": "https://github.com/PsiACE/dohnuts",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "openjev",
+      "name": "OpenJev",
+      "repo": "razorback16/openjev",
+      "base": "DiffusionGemma 26B-A4B",
+      "kind": "interface",
+      "featured": true,
+      "url": "https://github.com/razorback16/openjev",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "simple",
+      "name": "Simple Jev",
+      "repo": "featherless-ai/simple-jev",
+      "base": "Open-model logits",
+      "kind": "interface",
+      "featured": false,
+      "url": "https://github.com/featherless-ai/simple-jev",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "rizzo",
+      "name": "Rizzo Flow",
+      "repo": "Rizzo-AI-Academy/rizzo-flow",
+      "base": "Spark-X2.5-4B",
+      "kind": "interface",
+      "featured": false,
+      "url": "https://github.com/Rizzo-AI-Academy/rizzo-flow",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "anyjev",
+      "name": "AnyJev",
+      "repo": "nokia-applied-research/AnyJev",
+      "base": "Any causal LLM",
+      "kind": "interface",
+      "featured": false,
+      "url": "https://github.com/nokia-applied-research/AnyJev",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "localjev",
+      "name": "local-jev",
+      "repo": "amithgc/local-jev",
+      "base": "Qwen3.5 / DeBERTa",
+      "kind": "interface",
+      "featured": false,
+      "url": "https://github.com/amithgc/local-jev",
+      "relationship": "community ecosystem",
+      "official": false
+    }
+  ]
+}

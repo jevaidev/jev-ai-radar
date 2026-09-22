@@ -1,0 +1,606 @@
+{
+  "updatedAt": "2026-09-22",
+  "cases": [
+    {
+      "id": "voice-browser",
+      "title": "Turn spoken commands into browser actions",
+      "summary": "Moritz Kremb builds a voice-controlled browser in a longer tutorial. Speech is transcribed first; Jev then judges the intended action and target among the current page elements.",
+      "decision": "Is this a command, and which visible action should run?",
+      "takeaway": "Jev is one stage in the loop. Speech recognition, browser state, safety checks and the actual click are handled outside the model.",
+      "patterns": [
+        "Choice",
+        "Noul"
+      ],
+      "scenarios": [
+        "agents",
+        "personal",
+        "sdk"
+      ],
+      "maturity": "Tutorial",
+      "author": "Moritz Kremb",
+      "published": "2026-09-17",
+      "checked": "2026-09-20",
+      "source": {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/watch?v=Nq_lu5QT-fI&t=359s",
+        "videoId": "Nq_lu5QT-fI",
+        "startAt": 359
+      }
+    },
+    {
+      "id": "three-apps-tutorial",
+      "title": "Compare Choice, Score and Noul in three applications",
+      "summary": "Riley Brown walks through Jev’s three output shapes and shows several small applications, including routing a request to a model and triaging email.",
+      "decision": "Which answer shape fits the decision your app must make?",
+      "takeaway": "Start with the output format: choose one option, assign a numeric score or answer a yes-or-no question. The application remains responsible for acting on the result.",
+      "patterns": [
+        "Choice",
+        "Score",
+        "Noul"
+      ],
+      "scenarios": [
+        "sdk",
+        "agents",
+        "support"
+      ],
+      "maturity": "Tutorial",
+      "author": "Riley Brown",
+      "published": "2026-09-18",
+      "checked": "2026-09-20",
+      "source": {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/watch?v=o1CogAtWdBk",
+        "videoId": "o1CogAtWdBk"
+      }
+    },
+    {
+      "id": "typesafe-interview",
+      "title": "Watch the TypeSafe team explain Jev in a live interview",
+      "summary": "TypeSafe DevRel Allie Laabs joins ThursdAI to explain System One models and the Choice, Score and Noul primitives. The segment includes a tweet classifier and a live game demo.",
+      "decision": "Which structured question should replace an open-ended generation step?",
+      "takeaway": "This is useful background from the team, with demonstrations and open questions. Performance and price figures discussed in the interview are the speakers’ claims.",
+      "patterns": [
+        "Choice",
+        "Score",
+        "Noul"
+      ],
+      "scenarios": [
+        "sdk",
+        "games"
+      ],
+      "maturity": "Tutorial",
+      "author": "ThursdAI with Allie Laabs",
+      "published": "2026-09-17",
+      "checked": "2026-09-20",
+      "source": {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/watch?v=QkPnAoHBXwo",
+        "videoId": "QkPnAoHBXwo"
+      }
+    },
+    {
+      "id": "browser-agent-action-selection",
+      "title": "Choose a browser agent’s next action from a changing set",
+      "summary": "Gregor shows an open-source browser agent using DOM state and a changing set of available actions. Jev selects each step, with a small language-model fallback when text input is needed.",
+      "decision": "Which currently available browser action should run next?",
+      "takeaway": "The creator reports a flight-search example at about 7 seconds and $0.0039. Treat those figures as a demo claim, not a benchmark; action execution and safeguards stay in the application.",
+      "patterns": [
+        "Choice"
+      ],
+      "scenarios": [
+        "agents",
+        "personal"
+      ],
+      "maturity": "Prototype",
+      "author": "Gregor Zunic",
+      "published": "2026-09-17",
+      "checked": "2026-09-22",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/gregpr07/status/2100411066966749359",
+        "postId": "2100411066966749359"
+      }
+    },
+    {
+      "id": "instant-context-compaction",
+      "title": "Keep only relevant tool calls during context compaction",
+      "summary": "Tamara demonstrates scoring individual tool calls and dropping irrelevant ones instead of rewriting the retained context as a generated summary.",
+      "decision": "Is this tool call relevant enough to keep in the agent context?",
+      "takeaway": "Per-call filtering preserves the selected original text, but dependencies between steps and audit requirements still need deterministic checks.",
+      "patterns": [
+        "Score",
+        "Noul"
+      ],
+      "scenarios": [
+        "safety",
+        "engineering",
+        "agents"
+      ],
+      "maturity": "Prototype",
+      "author": "Tamara Tran",
+      "published": "2026-09-17",
+      "checked": "2026-09-22",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/tamarajtran/status/2100694549362553153",
+        "postId": "2100694549362553153"
+      }
+    },
+    {
+      "id": "box-incident-routing",
+      "title": "Assign Box incident reports to the right queue",
+      "summary": "Aaron Levie demonstrates an agent reading an incident report from Box, judging whether customers are affected and how severe the incident is, then moving the file to an escalation, monitoring or review folder.",
+      "decision": "Which queue should this incident enter, and how urgent is it?",
+      "takeaway": "The useful boundary is between a short classification and the workflow that acts on it. Folder moves and metadata updates stay in application code.",
+      "patterns": [
+        "Choice",
+        "Score"
+      ],
+      "scenarios": [
+        "agents",
+        "support"
+      ],
+      "maturity": "Prototype",
+      "author": "Aaron Levie",
+      "published": "2026-09-18",
+      "checked": "2026-09-20",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/levie/status/2101007708044574906",
+        "postId": "2101007708044574906"
+      }
+    },
+    {
+      "id": "secondhand-listing-triage",
+      "title": "Evaluate secondhand listings before making an offer",
+      "summary": "In a Spanish-language demo, Alan Daitch pairs Playwright with Jev to review used-item listings. Jev answers checks about the item and its fit; the surrounding workflow discards, bids or asks the seller for missing details.",
+      "decision": "Does this listing match the buyer’s size, budget and other requirements?",
+      "takeaway": "The post’s follow-up describes five yes-or-no checks on page text. Browser navigation, offers and seller messages are separate actions that need review rules and safeguards.",
+      "patterns": [
+        "Noul"
+      ],
+      "scenarios": [
+        "search",
+        "agents",
+        "personal"
+      ],
+      "maturity": "Prototype",
+      "author": "Alan Daitch",
+      "published": "2026-09-18",
+      "checked": "2026-09-20",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/AlanDaitch/status/2100757989212754085",
+        "postId": "2100757989212754085",
+        "language": "Spanish"
+      }
+    },
+    {
+      "id": "live-slide-selection",
+      "title": "Show the most relevant slide as someone speaks",
+      "summary": "Rinte’s Japanese-language demo selects a presentation slide that matches the current spoken topic, without the presenter touching a pointer or keyboard.",
+      "decision": "Which prepared slide best matches what is being said now?",
+      "takeaway": "This is a selection task over existing slides. Speech capture and the slide display are parts of the application around Jev; the demo does not show Jev generating slides.",
+      "patterns": [
+        "Choice"
+      ],
+      "scenarios": [
+        "personal",
+        "agents"
+      ],
+      "maturity": "Prototype",
+      "author": "Rinte",
+      "published": "2026-09-18",
+      "checked": "2026-09-20",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/rinte0321/status/2100749640866165092",
+        "postId": "2100749640866165092",
+        "language": "Japanese"
+      }
+    },
+    {
+      "id": "meeting-state-sensor",
+      "title": "Track the state of a conversation",
+      "summary": "Kaneko’s Japanese-language prototype updates three meeting signals after each utterance: exploration or convergence, resolved or pending, and disagreement or agreement.",
+      "decision": "Where is the conversation on each of these three axes?",
+      "takeaway": "Repeated, bounded judgments can make a live discussion easier to follow. The prototype is a visualization, not proof that the labels accurately represent every participant’s intent.",
+      "patterns": [
+        "Choice"
+      ],
+      "scenarios": [
+        "support",
+        "personal"
+      ],
+      "maturity": "Prototype",
+      "author": "Tsuyoshi Kaneko",
+      "published": "2026-09-18",
+      "checked": "2026-09-20",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/tsuyoshi_osiire/status/2100734646824902713",
+        "postId": "2100734646824902713",
+        "language": "Japanese"
+      }
+    },
+    {
+      "id": "codex-computer-use",
+      "title": "Use Jev to guide a computer-control workflow",
+      "summary": "In a Chinese-language demo, Sac combines Codex and Jev to add a Mac calendar event, showing the same task with and without the Jev-assisted workflow.",
+      "decision": "Which available computer action should follow the current state?",
+      "takeaway": "The side-by-side video makes responsiveness visible, but it is one creator’s comparison rather than a controlled speed benchmark. The app still executes and verifies each action.",
+      "patterns": [
+        "Choice"
+      ],
+      "scenarios": [
+        "agents",
+        "engineering",
+        "personal"
+      ],
+      "maturity": "Prototype",
+      "author": "Sac",
+      "published": "2026-09-18",
+      "checked": "2026-09-20",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/Saccc_c/status/2100864907046768890",
+        "postId": "2100864907046768890",
+        "language": "Chinese"
+      }
+    },
+    {
+      "id": "brand-news-matching",
+      "title": "Match news to relevant brands",
+      "summary": "A Chinese-language demo runs Jev over a stream of news items for 15 brands, assigning structured intent labels and identifying stories that may be relevant to each brand.",
+      "decision": "Is this story relevant to a brand, and which intent label fits?",
+      "takeaway": "The creator reports a fast batch run. Replies point out visible classification errors, so editorial review and a measured accuracy check matter before using the output for PR decisions.",
+      "patterns": [
+        "Choice",
+        "Noul"
+      ],
+      "scenarios": [
+        "search",
+        "engineering"
+      ],
+      "maturity": "Prototype",
+      "author": "梭哈.AI",
+      "published": "2026-09-19",
+      "checked": "2026-09-20",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/SUOHA_AI/status/2101000339948282090",
+        "postId": "2101000339948282090",
+        "language": "Chinese"
+      }
+    },
+    {
+      "id": "gmail-intent-search",
+      "title": "Filter retrieved emails by the user’s intent",
+      "summary": "Nader shows intent-based Gmail search and notes that a large inbox can use semantic retrieval first, then let Jev judge the smaller candidate set.",
+      "decision": "Does this retrieved email match what the user is trying to find?",
+      "takeaway": "Retrieval and judgment are separate stages. Mail permissions, candidate recall and a way to inspect missed results remain important.",
+      "patterns": [
+        "Noul",
+        "Score"
+      ],
+      "scenarios": [
+        "search",
+        "personal"
+      ],
+      "maturity": "Prototype",
+      "author": "Nader Dabit",
+      "published": "2026-09-18",
+      "checked": "2026-09-22",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/dabit3/status/2100960281769738433",
+        "postId": "2100960281769738433"
+      }
+    },
+    {
+      "id": "model-router",
+      "title": "Choose the right AI model before a costly model request",
+      "summary": "Duncan shows a router that asks Jev which model fits an incoming request, then sends the request to that model. Jev makes the routing decision; another model handles the open-ended response.",
+      "decision": "Which available model should handle this request?",
+      "takeaway": "A bounded choice can sit ahead of a generative model. The router still needs fallback rules and evaluation against real requests.",
+      "patterns": [
+        "Choice"
+      ],
+      "scenarios": [
+        "agents",
+        "search"
+      ],
+      "maturity": "Prototype",
+      "author": "Duncan",
+      "published": "2026-09-17",
+      "checked": "2026-09-20",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/ephraimduncan/status/2100454070536351824",
+        "postId": "2100454070536351824"
+      }
+    },
+    {
+      "id": "bannerbear-field-mapping",
+      "title": "Match data fields with different names in one click",
+      "summary": "Bannerbear describes a live feature that maps source fields to template fields even when their names differ, such as avatar to photo or full_name to name.",
+      "decision": "Which source field belongs in each template slot?",
+      "takeaway": "This is a compact semantic matching task with a fixed set of candidate fields. A product should still let users inspect and correct a proposed mapping.",
+      "patterns": [
+        "Choice"
+      ],
+      "scenarios": [
+        "engineering",
+        "personal"
+      ],
+      "maturity": "Live feature",
+      "author": "Jon Yongfook / Bannerbear",
+      "published": "2026-09-18",
+      "checked": "2026-09-20",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/yongfook/status/2100801037192024478",
+        "postId": "2100801037192024478"
+      }
+    },
+    {
+      "id": "predictive-spreadsheet",
+      "title": "Score spreadsheet rows by their meaning",
+      "summary": "Nader Dabit shares a predictive spreadsheet demo: entering a heading such as “Urgency” makes the sheet judge the meaning of each row, rather than only recalculate numeric formulas.",
+      "decision": "How urgent is this row, given its contents and column intent?",
+      "takeaway": "A score can augment a spreadsheet when the useful signal is semantic. The demo is a prototype, so its ratings still need testing before operational use.",
+      "patterns": [
+        "Score"
+      ],
+      "scenarios": [
+        "engineering",
+        "personal",
+        "support"
+      ],
+      "maturity": "Prototype",
+      "author": "Nader Dabit",
+      "published": "2026-09-18",
+      "checked": "2026-09-20",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/dabit3/status/2100780008193020049",
+        "postId": "2100780008193020049"
+      }
+    },
+    {
+      "id": "content-filter",
+      "title": "Filter a social feed with a natural-language rule",
+      "summary": "Marcel Pociot demonstrates a browser extension that hides or collapses X posts matching a rule written in ordinary language. The extension acts on the returned judgment while the user browses.",
+      "decision": "Does this post match the user’s filter rule?",
+      "takeaway": "A yes-or-no decision can make a personal content filter responsive. False positives matter here, so a reversible “collapse” action is safer than silently deleting content.",
+      "patterns": [
+        "Noul"
+      ],
+      "scenarios": [
+        "safety",
+        "personal"
+      ],
+      "maturity": "Prototype",
+      "author": "Marcel Pociot",
+      "published": "2026-09-17",
+      "checked": "2026-09-20",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/marcelpociot/status/2100520134481735729",
+        "postId": "2100520134481735729"
+      }
+    },
+    {
+      "id": "download-folder-routing",
+      "title": "Organize downloaded files with a decision rule",
+      "summary": "Marcel Pociot shows a macOS app watching the Downloads folder. It judges whether a new file is an invoice, then files and renames matching documents according to a configured rule.",
+      "decision": "Is this file an invoice that belongs in the configured folder?",
+      "takeaway": "The creator says low-confidence files stay in place for manual review. That threshold and duplicate detection matter more than making every file move automatic.",
+      "patterns": [
+        "Noul",
+        "Score"
+      ],
+      "scenarios": [
+        "personal",
+        "engineering"
+      ],
+      "maturity": "Prototype",
+      "author": "Marcel Pociot",
+      "published": "2026-09-18",
+      "checked": "2026-09-20",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/marcelpociot/status/2100906882365788167",
+        "postId": "2100906882365788167"
+      }
+    },
+    {
+      "id": "fraud-email-triage",
+      "title": "Send uncertain email classifications for further review",
+      "summary": "Hassan shows a pipeline that first classifies a batch of emails with Jev, then sends uncertain cases to another model. The example separates a fast first pass from closer review.",
+      "decision": "Is this email suspicious enough to escalate?",
+      "takeaway": "The valuable design choice is the uncertainty threshold. The creator’s reported accuracy applies to that demo batch, not to every inbox or fraud pattern.",
+      "patterns": [
+        "Noul",
+        "Score"
+      ],
+      "scenarios": [
+        "safety",
+        "support",
+        "agents"
+      ],
+      "maturity": "Prototype",
+      "author": "Hassan",
+      "published": "2026-09-17",
+      "checked": "2026-09-20",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/nutlope/status/2100614659690713543",
+        "postId": "2100614659690713543"
+      }
+    },
+    {
+      "id": "batch-email-triage",
+      "title": "Classify a large batch of emails into support queues",
+      "summary": "Riley Brown demonstrates Jev classifying 500 emails in seconds, using bounded categories instead of generating a response for each message.",
+      "decision": "Which configured queue best fits this email?",
+      "takeaway": "The creator reports a total cost of about $0.035 for the demo. Production use still needs a defined label set, confidence handling and human review for consequential messages.",
+      "patterns": [
+        "Choice"
+      ],
+      "scenarios": [
+        "support",
+        "agents"
+      ],
+      "maturity": "Prototype",
+      "author": "Riley Brown",
+      "published": "2026-09-17",
+      "checked": "2026-09-22",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/rileybrown/status/2100404532119269426",
+        "postId": "2100404532119269426"
+      }
+    },
+    {
+      "id": "pr-review",
+      "title": "Review pull requests with structured checks",
+      "summary": "Paolo Rosson feeds a code diff into Jev and receives a set of judgments about possible secrets, SQL injection, authentication changes, missing tests and other review signals.",
+      "decision": "Which risks should a reviewer inspect in this diff?",
+      "takeaway": "These are review prompts, not proof that code is safe to merge. Keep human review and deterministic scanners in the loop for consequential changes.",
+      "patterns": [
+        "Noul",
+        "Score"
+      ],
+      "scenarios": [
+        "engineering",
+        "safety"
+      ],
+      "maturity": "Prototype",
+      "author": "Paolo Rosson",
+      "published": "2026-09-17",
+      "checked": "2026-09-20",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/redp314/status/2100585126652481915",
+        "postId": "2100585126652481915"
+      }
+    },
+    {
+      "id": "agent-evaluation-judge",
+      "title": "Evaluate agent runs with a repeatable, structured judge",
+      "summary": "LangChain compares Jev with language-model judges across accuracy, repeatability, latency and cost as an alternative way to evaluate agent behavior.",
+      "decision": "Does this agent result satisfy the evaluation criterion?",
+      "takeaway": "A faster judge is useful only when its rubric and labels track the behavior a team cares about. Benchmark findings should be reproduced on each application’s own data.",
+      "patterns": [
+        "Noul",
+        "Score"
+      ],
+      "scenarios": [
+        "engineering",
+        "sdk",
+        "agents"
+      ],
+      "maturity": "Prototype",
+      "author": "LangChain",
+      "published": "2026-09-19",
+      "checked": "2026-09-22",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/LangChain/status/2101454284927959080",
+        "postId": "2101454284927959080"
+      }
+    },
+    {
+      "id": "realtime-level-generation",
+      "title": "Choose structured game-level parameters in real time",
+      "summary": "Hugo Duprez demonstrates Jev producing structured decisions that a game engine uses to build level sections during play.",
+      "decision": "Which allowed level parameters should define the next section?",
+      "takeaway": "Jev selects within the game’s schema; the engine still enforces valid geometry, difficulty limits and playable transitions. Speed figures remain creator-reported.",
+      "patterns": [
+        "Choice"
+      ],
+      "scenarios": [
+        "games",
+        "engineering"
+      ],
+      "maturity": "Prototype",
+      "author": "Hugo Duprez",
+      "published": "2026-09-18",
+      "checked": "2026-09-22",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/HugoDuprez/status/2100953089003921543",
+        "postId": "2100953089003921543"
+      }
+    },
+    {
+      "id": "pacman",
+      "title": "Choose Pac-Man’s next direction",
+      "summary": "Duncan sends the maze state as JSON and lets Jev choose a direction when Pac-Man reaches a junction. The game engine then applies that bounded decision in real time.",
+      "decision": "Which valid direction should Pac-Man turn next?",
+      "takeaway": "Games make repeated, time-sensitive decisions visible. The demo illustrates the control loop, not a general claim that Jev sees or understands raw game video.",
+      "patterns": [
+        "Choice"
+      ],
+      "scenarios": [
+        "games"
+      ],
+      "maturity": "Prototype",
+      "author": "Duncan",
+      "published": "2026-09-17",
+      "checked": "2026-09-20",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/ephraimduncan/status/2100524915007144289",
+        "postId": "2100524915007144289"
+      }
+    },
+    {
+      "id": "post-ranking",
+      "title": "Rate draft posts before publishing",
+      "summary": "Rob Hallam presents a SuperX demo that asks many fixed questions about each post and uses the answers to rank drafts. It is an example of using scores to guide editing rather than generate the post.",
+      "decision": "Which draft has the strongest signals for this audience?",
+      "takeaway": "Ranking is only useful if it correlates with later outcomes. Treat the creator’s performance figures as a demo claim until independently reproduced.",
+      "patterns": [
+        "Score",
+        "Choice"
+      ],
+      "scenarios": [
+        "search"
+      ],
+      "maturity": "Live feature",
+      "author": "Rob Hallam / SuperX",
+      "published": "2026-09-17",
+      "checked": "2026-09-20",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/robj3d3/status/2100722975645598191",
+        "postId": "2100722975645598191"
+      }
+    },
+    {
+      "id": "competitor-ad-tagging",
+      "title": "Label a large collection of competitor ads",
+      "summary": "Stav Zilbershtein demonstrates classifying a large ad library by customer-journey stage and creative style, then using those labels to inspect a competitor’s campaign mix.",
+      "decision": "Which funnel stage and style describe each ad?",
+      "takeaway": "Consistent labels make a large collection easier to compare. The post’s timing and cost are creator-reported; the deeper account analysis is part of the wider workflow, not necessarily a Jev output.",
+      "patterns": [
+        "Choice"
+      ],
+      "scenarios": [
+        "search",
+        "engineering"
+      ],
+      "maturity": "Prototype",
+      "author": "Stav Zilbershtein",
+      "published": "2026-09-18",
+      "checked": "2026-09-20",
+      "source": {
+        "platform": "x",
+        "url": "https://x.com/mightyking/status/2100939189869002819",
+        "postId": "2100939189869002819"
+      }
+    }
+  ]
+}
