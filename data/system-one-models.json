@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-09-23",
   "notice": "Independent community projects; not official TypeSafe Jev releases.",
   "projects": [
     {
@@ -38,11 +38,11 @@
     {
       "key": "verdict",
       "name": "Verdict",
-      "repo": "Heman10x-NGU/Verdict-open-jev",
-      "base": "ModernBERT 151M",
+      "repo": "Heman10x-NGU/openJev-verdict-2.0",
+      "base": "ModernBERT 151M / Verdict 2.0",
       "kind": "model",
       "featured": true,
-      "url": "https://github.com/Heman10x-NGU/Verdict-open-jev",
+      "url": "https://github.com/Heman10x-NGU/openJev-verdict-2.0",
       "relationship": "community ecosystem",
       "official": false
     },
@@ -109,6 +109,127 @@
       "kind": "interface",
       "featured": false,
       "url": "https://github.com/amithgc/local-jev",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "agentjev",
+      "name": "AgentJev",
+      "repo": "malevrigns/agent-jev",
+      "base": "Qwen3-0.6B",
+      "kind": "model",
+      "featured": false,
+      "url": "https://github.com/malevrigns/agent-jev",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "llm2jev",
+      "name": "LLM2Jev",
+      "repo": "Yinsongxu/LLM2Jev",
+      "base": "Causal LMs / SGLang",
+      "kind": "interface",
+      "featured": false,
+      "url": "https://github.com/Yinsongxu/LLM2Jev",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "laya",
+      "name": "Laya",
+      "repo": "receptron/laya",
+      "base": "Laya / ONNX Runtime",
+      "kind": "interface",
+      "featured": false,
+      "url": "https://github.com/receptron/laya",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "openthai",
+      "name": "OpenThai System One",
+      "repo": "iapp-technology/openthai-systemone",
+      "base": "Qwen3.5-0.8B",
+      "kind": "model",
+      "featured": false,
+      "url": "https://github.com/iapp-technology/openthai-systemone",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "layaserver",
+      "name": "Laya Server",
+      "repo": "1Panel-dev/laya-server",
+      "base": "Laya multilingual",
+      "kind": "interface",
+      "featured": false,
+      "url": "https://github.com/1Panel-dev/laya-server",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "stuntd",
+      "name": "stuntd",
+      "repo": "bladedevoff/stuntd",
+      "base": "Laya / learned heads",
+      "kind": "interface",
+      "featured": false,
+      "url": "https://github.com/bladedevoff/stuntd",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "jevper",
+      "name": "jevper",
+      "repo": "zhulinchng/jevper",
+      "base": "OpenAI-compatible models",
+      "kind": "interface",
+      "featured": false,
+      "url": "https://github.com/zhulinchng/jevper",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "valen",
+      "name": "Valen",
+      "repo": "Liuziyu77/Valen",
+      "base": "Qwen3.5-2B / multimodal",
+      "kind": "model",
+      "featured": false,
+      "url": "https://github.com/Liuziyu77/Valen",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "mojev",
+      "name": "MoJev",
+      "repo": "MoLeMo-Lab/mojev",
+      "base": "0.85B multimodal",
+      "kind": "model",
+      "featured": false,
+      "url": "https://github.com/MoLeMo-Lab/mojev",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "qwev",
+      "name": "Qwev",
+      "repo": "HopLee6/Qwev",
+      "base": "Qwen3 / Qwen3.5",
+      "kind": "interface",
+      "featured": false,
+      "url": "https://github.com/HopLee6/Qwev",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "dynajev",
+      "name": "Dynajev",
+      "repo": "strangeloopcanon/dynajev",
+      "base": "Open-weight causal LMs",
+      "kind": "interface",
+      "featured": false,
+      "url": "https://github.com/strangeloopcanon/dynajev",
       "relationship": "community ecosystem",
       "official": false
     }

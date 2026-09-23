@@ -6,12 +6,12 @@
 
 > Jev AI Radar is an independent community resource maintained by [Jev AI Dev](https://jevai.dev/). It is not affiliated with or endorsed by TypeSafe AI.
 
-## Latest radar — September 22, 2026
+## Latest radar — September 23, 2026
 
-- **26 ranked GitHub projects** tracked with stars, licenses, languages, creation dates, and last commit times.
-- **10 community System One projects** tracked separately from official Jev releases.
+- **48 ranked GitHub projects** tracked with Stars, licenses, languages, creation dates, and last commit times.
+- **21 community System One projects** tracked separately from official Jev releases.
 - **25 selected use cases** from developers, product teams, X posts, and YouTube demonstrations.
-- The first daily editorial snapshot is available in [`daily/2026/09/2026-09-22.md`](daily/2026/09/2026-09-22.md).
+- The latest editorial snapshot is available in [`daily/2026/09/2026-09-23.md`](daily/2026/09/2026-09-23.md).
 
 ## Jev GitHub ranking
 
@@ -19,16 +19,16 @@ Stars are a discovery signal, not a quality or safety guarantee. The complete ma
 
 | Rank | Project | Stars | Type | What it does |
 | ---: | --- | ---: | --- | --- |
-| 1 | [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) | 16,112 | Tool | Uses Jev to choose browser operations and page elements from live DOM state. |
-| 2 | [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) | 6,014 | Tool | Keeps, trims, or drops tool calls while preserving conversation text. |
-| 3 | [jev-trader](https://github.com/jarrodwatts/jev-trader) | 1,871 | App | Explores bounded buy or sell decisions in an order-book bot. |
-| 4 | [Jev Review](https://github.com/devagrawal09/jev-review) | 496 | Tool | Reviews code through structured risk, evidence, and severity judgments. |
-| 5 | [Foreman](https://github.com/thruwire/foreman) | 468 | Tool | Supervises coding agents and flags when intervention is needed. |
-| 6 | [Jev Search](https://github.com/superagents-lab/jev-search) | 382 | App | Selects search sources and ranks linked results. |
-| 7 | [Mobile Jev](https://github.com/droidrun/mobile-jev) | 328 | App | Chooses actions for an Android agent with visible execution traces. |
-| 8 | [jev-router](https://github.com/gargpratyush/jev-router) | 314 | Tool | Routes coding-agent turns to an appropriate model tier. |
-| 9 | [jev-align](https://github.com/sutro-sh/jev-align) | 270 | Tool | Evaluates and improves fixed-output classifiers with labelled data. |
-| 10 | [Jev MCP](https://github.com/jkudish/jev-mcp) | 241 | Tool | Exposes Jev-backed verification, ranking, classification, and review tools over MCP. |
+| 1 | [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) | 18,893 | Tool | A browser agent that asks Jev to choose an operation and page element from live DOM state; a separate text model handles typing. |
+| 2 | [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) | 6,504 | Tool | A Claude Code plugin that uses Jev to keep, trim or drop tool calls and results while preserving conversation text. |
+| 3 | [Jev Chat Jarvis](https://github.com/jev-chat/jev-chat-jarvis) | 5,140 | App | An Android chat companion that reads visible messages through Accessibility or OCR, asks Jev about intent and risk, and ranks draft replies without sending them. |
+| 4 | [jev-trader](https://github.com/jarrodwatts/jev-trader) | 2,152 | App | A Monad order-book bot with an optional Jev mode for buy or sell decisions; its default run uses a mock heuristic. |
+| 5 | [Jev Review](https://github.com/devagrawal09/jev-review) | 573 | Tool | Reviews diffs or codebases through staged Jev judgments about risk, evidence and severity, with a local dashboard. |
+| 6 | [Foreman](https://github.com/thruwire/foreman) | 529 | Tool | Supervises coding agents with Jev judgments about progress, verification and when a worker needs intervention. |
+| 7 | [Jev Skill](https://github.com/wuyoscar/jev-skill) | 460 | Examples | Installable Jev skills and editable agent workflows with scenario templates, recorded examples and tests. |
+| 8 | [Jev Search](https://github.com/superagents-lab/jev-search) | 431 | App | Uses Jev to choose search sources and rank results returned through Search1API, showing links instead of generated answers. |
+| 9 | [Jev Chat for Windows](https://github.com/jev-chat/jev-chat-windows) | 428 | App | A Windows WeChat helper using local screenshots and OCR, Jev judgments and ranked reply candidates; filling is explicit and sending remains manual. |
+| 10 | [Mobile Jev](https://github.com/droidrun/mobile-jev) | 368 | App | A mobile agent that uses Jev to choose actions on an Android device through Mobilerun, with a live studio and execution traces. |
 
 [View the live sortable ranking on jevai.dev →](https://jevai.dev/projects/)
 
@@ -41,13 +41,24 @@ These are independent experiments, open models, and compatible interfaces inspir
 | [Bespoke Nimble](https://github.com/bespokelabsai/nimble) | Qwen3.5-9B | Model |
 | [NanoJev](https://github.com/TianyuCodings/NanoJev) | Qwen3-0.6B | Model |
 | [decider](https://github.com/Mapika/decider) | Qwen3.5-2B | Model |
-| [Verdict](https://github.com/Heman10x-NGU/Verdict-open-jev) | ModernBERT 151M | Model |
+| [Verdict](https://github.com/Heman10x-NGU/openJev-verdict-2.0) | ModernBERT 151M / Verdict 2.0 | Model |
 | [Dohnuts](https://github.com/PsiACE/dohnuts) | Qwen3.5-0.8B | Model |
 | [OpenJev](https://github.com/razorback16/openjev) | DiffusionGemma 26B-A4B | Interface |
 | [Simple Jev](https://github.com/featherless-ai/simple-jev) | Open-model logits | Interface |
 | [Rizzo Flow](https://github.com/Rizzo-AI-Academy/rizzo-flow) | Spark-X2.5-4B | Interface |
 | [AnyJev](https://github.com/nokia-applied-research/AnyJev) | Any causal LLM | Interface |
 | [local-jev](https://github.com/amithgc/local-jev) | Qwen3.5 / DeBERTa | Interface |
+| [AgentJev](https://github.com/malevrigns/agent-jev) | Qwen3-0.6B | Model |
+| [LLM2Jev](https://github.com/Yinsongxu/LLM2Jev) | Causal LMs / SGLang | Interface |
+| [Laya](https://github.com/receptron/laya) | Laya / ONNX Runtime | Interface |
+| [OpenThai System One](https://github.com/iapp-technology/openthai-systemone) | Qwen3.5-0.8B | Model |
+| [Laya Server](https://github.com/1Panel-dev/laya-server) | Laya multilingual | Interface |
+| [stuntd](https://github.com/bladedevoff/stuntd) | Laya / learned heads | Interface |
+| [jevper](https://github.com/zhulinchng/jevper) | OpenAI-compatible models | Interface |
+| [Valen](https://github.com/Liuziyu77/Valen) | Qwen3.5-2B / multimodal | Model |
+| [MoJev](https://github.com/MoLeMo-Lab/mojev) | 0.85B multimodal | Model |
+| [Qwev](https://github.com/HopLee6/Qwev) | Qwen3 / Qwen3.5 | Interface |
+| [Dynajev](https://github.com/strangeloopcanon/dynajev) | Open-weight causal LMs | Interface |
 
 [Explore the System One ecosystem on jevai.dev →](https://jevai.dev/system-one/)
 
