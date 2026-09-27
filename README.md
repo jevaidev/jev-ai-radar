@@ -6,29 +6,29 @@
 
 > Jev AI Radar is an independent community resource maintained by [Jev AI Dev](https://jevai.dev/). It is not affiliated with or endorsed by TypeSafe AI.
 
-## Latest radar — September 23, 2026
+## Latest radar — September 27, 2026
 
-- **48 ranked GitHub projects** tracked with Stars, licenses, languages, creation dates, and last commit times.
-- **21 community System One projects** tracked separately from official Jev releases.
+- **62 ranked GitHub projects** tracked with Stars, recent Star changes, licenses, languages, creation dates, and last commit times.
+- **20 community System One projects** tracked separately from official Jev releases.
 - **25 selected use cases** from developers, product teams, X posts, and YouTube demonstrations.
-- The latest editorial snapshot is available in [`daily/2026/09/2026-09-23.md`](daily/2026/09/2026-09-23.md).
+- The latest editorial snapshot is available in [`daily/2026/09/2026-09-27.md`](daily/2026/09/2026-09-27.md).
 
 ## Jev GitHub ranking
 
-Stars are a discovery signal, not a quality or safety guarantee. The complete machine-readable collection lives in [`data/projects.json`](data/projects.json).
+Stars are a discovery signal, not a quality or safety guarantee. The complete machine-readable collection lives in [`data/projects.json`](data/projects.json). Each record also includes the Star change between the two dated snapshots declared at the top of that file.
 
 | Rank | Project | Stars | Type | What it does |
 | ---: | --- | ---: | --- | --- |
-| 1 | [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) | 18,893 | Tool | A browser agent that asks Jev to choose an operation and page element from live DOM state; a separate text model handles typing. |
-| 2 | [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) | 6,504 | Tool | A Claude Code plugin that uses Jev to keep, trim or drop tool calls and results while preserving conversation text. |
-| 3 | [Jev Chat Jarvis](https://github.com/jev-chat/jev-chat-jarvis) | 5,140 | App | An Android chat companion that reads visible messages through Accessibility or OCR, asks Jev about intent and risk, and ranks draft replies without sending them. |
-| 4 | [jev-trader](https://github.com/jarrodwatts/jev-trader) | 2,152 | App | A Monad order-book bot with an optional Jev mode for buy or sell decisions; its default run uses a mock heuristic. |
-| 5 | [Jev Review](https://github.com/devagrawal09/jev-review) | 573 | Tool | Reviews diffs or codebases through staged Jev judgments about risk, evidence and severity, with a local dashboard. |
-| 6 | [Foreman](https://github.com/thruwire/foreman) | 529 | Tool | Supervises coding agents with Jev judgments about progress, verification and when a worker needs intervention. |
-| 7 | [Jev Skill](https://github.com/wuyoscar/jev-skill) | 460 | Examples | Installable Jev skills and editable agent workflows with scenario templates, recorded examples and tests. |
-| 8 | [Jev Search](https://github.com/superagents-lab/jev-search) | 431 | App | Uses Jev to choose search sources and rank results returned through Search1API, showing links instead of generated answers. |
-| 9 | [Jev Chat for Windows](https://github.com/jev-chat/jev-chat-windows) | 428 | App | A Windows WeChat helper using local screenshots and OCR, Jev judgments and ranked reply candidates; filling is explicit and sending remains manual. |
-| 10 | [Mobile Jev](https://github.com/droidrun/mobile-jev) | 368 | App | A mobile agent that uses Jev to choose actions on an Android device through Mobilerun, with a live studio and execution traces. |
+| 1 | [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) | 20,682 | Tool | A browser agent that asks Jev to choose an operation and page element from live DOM state; a separate text model handles typing. |
+| 2 | [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) | 6,991 | Tool | A Claude Code plugin that uses Jev to keep, trim or drop tool calls and results while preserving conversation text. |
+| 3 | [Jev Chat Jarvis](https://github.com/jev-chat/jev-chat-jarvis) | 6,739 | App | An Android chat companion that reads visible messages through Accessibility or OCR, asks Jev about intent and risk, and ranks draft replies without sending them. |
+| 4 | [jev-trader](https://github.com/jarrodwatts/jev-trader) | 2,543 | App | A Monad order-book bot with an optional Jev mode for buy or sell decisions; its default run uses a mock heuristic. |
+| 5 | [Jev Review](https://github.com/devagrawal09/jev-review) | 625 | Tool | Reviews diffs or codebases through staged Jev judgments about risk, evidence and severity, with a local dashboard. |
+| 6 | [Jev Chat for Windows](https://github.com/jev-chat/jev-chat-windows) | 605 | App | A Windows WeChat helper using local screenshots and OCR, Jev judgments and ranked reply candidates; filling is explicit and sending remains manual. |
+| 7 | [Foreman](https://github.com/thruwire/foreman) | 585 | Tool | Supervises coding agents with Jev judgments about progress, verification and when a worker needs intervention. |
+| 8 | [Jev Skill](https://github.com/wuyoscar/jev-skill) | 504 | Examples | Installable Jev skills and editable agent workflows with scenario templates, recorded examples and tests. |
+| 9 | [Jev Search](https://github.com/superagents-lab/jev-search) | 471 | App | Uses Jev to choose search sources and rank results returned through Search1API, showing links instead of generated answers. |
+| 10 | [jev-router](https://github.com/gargpratyush/jev-router) | 438 | Tool | Routes each Claude Code or Codex turn to a model tier using Jev while keeping the existing CLI workflow. |
 
 [View the live sortable ranking on jevai.dev →](https://jevai.dev/projects/)
 
@@ -52,13 +52,12 @@ These are independent experiments, open models, and compatible interfaces inspir
 | [LLM2Jev](https://github.com/Yinsongxu/LLM2Jev) | Causal LMs / SGLang | Interface |
 | [Laya](https://github.com/receptron/laya) | Laya / ONNX Runtime | Interface |
 | [OpenThai System One](https://github.com/iapp-technology/openthai-systemone) | Qwen3.5-0.8B | Model |
-| [Laya Server](https://github.com/1Panel-dev/laya-server) | Laya multilingual | Interface |
-| [stuntd](https://github.com/bladedevoff/stuntd) | Laya / learned heads | Interface |
-| [jevper](https://github.com/zhulinchng/jevper) | OpenAI-compatible models | Interface |
-| [Valen](https://github.com/Liuziyu77/Valen) | Qwen3.5-2B / multimodal | Model |
-| [MoJev](https://github.com/MoLeMo-Lab/mojev) | 0.85B multimodal | Model |
-| [Qwev](https://github.com/HopLee6/Qwev) | Qwen3 / Qwen3.5 | Interface |
-| [Dynajev](https://github.com/strangeloopcanon/dynajev) | Open-weight causal LMs | Interface |
+| [Valen](https://github.com/Liuziyu77/Valen) | Qwen3.5-0.8B / 2B | Model |
+| [Tev1](https://github.com/togethercomputer/tev1) | Qwen3.5-4B | Model |
+| [Ollaya](https://github.com/ollaya-dev/ollaya) | Open decision models | Interface |
+| [Intern-Decision](https://github.com/InternLM/Intern-Decision) | Qwen3.5-0.8B / 2B / 4B | Model |
+| [Mica](https://github.com/akivet/Mica-v0.1-4B) | Qwen3.5-4B | Model |
+| [Jev-Style](https://github.com/lawrence3699/jev-style) | Qwen3.5-0.8B / 2B | Model |
 
 [Explore the System One ecosystem on jevai.dev →](https://jevai.dev/system-one/)
 
