@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23",
+  "updatedAt": "2026-09-27",
   "notice": "Independent community projects; not official TypeSafe Jev releases.",
   "projects": [
     {
@@ -96,7 +96,7 @@
       "repo": "nokia-applied-research/AnyJev",
       "base": "Any causal LLM",
       "kind": "interface",
-      "featured": false,
+      "featured": true,
       "url": "https://github.com/nokia-applied-research/AnyJev",
       "relationship": "community ecosystem",
       "official": false
@@ -157,43 +157,10 @@
       "official": false
     },
     {
-      "key": "layaserver",
-      "name": "Laya Server",
-      "repo": "1Panel-dev/laya-server",
-      "base": "Laya multilingual",
-      "kind": "interface",
-      "featured": false,
-      "url": "https://github.com/1Panel-dev/laya-server",
-      "relationship": "community ecosystem",
-      "official": false
-    },
-    {
-      "key": "stuntd",
-      "name": "stuntd",
-      "repo": "bladedevoff/stuntd",
-      "base": "Laya / learned heads",
-      "kind": "interface",
-      "featured": false,
-      "url": "https://github.com/bladedevoff/stuntd",
-      "relationship": "community ecosystem",
-      "official": false
-    },
-    {
-      "key": "jevper",
-      "name": "jevper",
-      "repo": "zhulinchng/jevper",
-      "base": "OpenAI-compatible models",
-      "kind": "interface",
-      "featured": false,
-      "url": "https://github.com/zhulinchng/jevper",
-      "relationship": "community ecosystem",
-      "official": false
-    },
-    {
       "key": "valen",
       "name": "Valen",
       "repo": "Liuziyu77/Valen",
-      "base": "Qwen3.5-2B / multimodal",
+      "base": "Qwen3.5-0.8B / 2B",
       "kind": "model",
       "featured": false,
       "url": "https://github.com/Liuziyu77/Valen",
@@ -201,35 +168,57 @@
       "official": false
     },
     {
-      "key": "mojev",
-      "name": "MoJev",
-      "repo": "MoLeMo-Lab/mojev",
-      "base": "0.85B multimodal",
+      "key": "tev1",
+      "name": "Tev1",
+      "repo": "togethercomputer/tev1",
+      "base": "Qwen3.5-4B",
       "kind": "model",
       "featured": false,
-      "url": "https://github.com/MoLeMo-Lab/mojev",
+      "url": "https://github.com/togethercomputer/tev1",
       "relationship": "community ecosystem",
       "official": false
     },
     {
-      "key": "qwev",
-      "name": "Qwev",
-      "repo": "HopLee6/Qwev",
-      "base": "Qwen3 / Qwen3.5",
+      "key": "ollaya",
+      "name": "Ollaya",
+      "repo": "ollaya-dev/ollaya",
+      "base": "Open decision models",
       "kind": "interface",
       "featured": false,
-      "url": "https://github.com/HopLee6/Qwev",
+      "url": "https://github.com/ollaya-dev/ollaya",
       "relationship": "community ecosystem",
       "official": false
     },
     {
-      "key": "dynajev",
-      "name": "Dynajev",
-      "repo": "strangeloopcanon/dynajev",
-      "base": "Open-weight causal LMs",
-      "kind": "interface",
+      "key": "internDecision",
+      "name": "Intern-Decision",
+      "repo": "InternLM/Intern-Decision",
+      "base": "Qwen3.5-0.8B / 2B / 4B",
+      "kind": "model",
       "featured": false,
-      "url": "https://github.com/strangeloopcanon/dynajev",
+      "url": "https://github.com/InternLM/Intern-Decision",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "mica",
+      "name": "Mica",
+      "repo": "akivet/Mica-v0.1-4B",
+      "base": "Qwen3.5-4B",
+      "kind": "model",
+      "featured": false,
+      "url": "https://github.com/akivet/Mica-v0.1-4B",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "jevStyle",
+      "name": "Jev-Style",
+      "repo": "lawrence3699/jev-style",
+      "base": "Qwen3.5-0.8B / 2B",
+      "kind": "model",
+      "featured": false,
+      "url": "https://github.com/lawrence3699/jev-style",
       "relationship": "community ecosystem",
       "official": false
     }
