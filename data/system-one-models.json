@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-09-27",
+  "updatedAt": "2026-10-14",
   "notice": "Independent community projects; not official TypeSafe Jev releases.",
   "projects": [
+    {
+      "key": "jeeves",
+      "name": "Jeeves",
+      "repo": "PostHog/jeeves",
+      "base": "Qwen3.5-9B + diffusion drafter",
+      "kind": "model",
+      "featured": true,
+      "url": "https://github.com/PostHog/jeeves",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "openjev4b",
+      "name": "OpenJev-4B",
+      "repo": "ejhshen/OpenJev",
+      "base": "Qwen3.5-4B",
+      "kind": "model",
+      "featured": false,
+      "url": "https://github.com/ejhshen/OpenJev",
+      "relationship": "community ecosystem",
+      "official": false
+    },
     {
       "key": "nimble",
       "name": "Bespoke Nimble",
@@ -63,7 +85,7 @@
       "repo": "razorback16/openjev",
       "base": "DiffusionGemma 26B-A4B",
       "kind": "interface",
-      "featured": true,
+      "featured": false,
       "url": "https://github.com/razorback16/openjev",
       "relationship": "community ecosystem",
       "official": false
@@ -219,6 +241,127 @@
       "kind": "model",
       "featured": false,
       "url": "https://github.com/lawrence3699/jev-style",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "openJevCommunity",
+      "name": "Open-Jev",
+      "repo": "Zefan-Cai/Open-Jev",
+      "base": "Qwen3.5-2B / 9B · Qwen3.8-27B",
+      "kind": "model",
+      "featured": false,
+      "url": "https://github.com/Zefan-Cai/Open-Jev",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "imajev",
+      "name": "imajev",
+      "repo": "mohit67890/imajev",
+      "base": "Qwen3.5-VL 2B / 4B / 9B",
+      "kind": "model",
+      "featured": false,
+      "url": "https://github.com/mohit67890/imajev",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "openDecider",
+      "name": "OpenDecider",
+      "repo": "manjunathshiva/opendecider",
+      "base": "0.6B / 0.8B / 4B decision models",
+      "kind": "model",
+      "featured": false,
+      "url": "https://github.com/manjunathshiva/opendecider",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "jiwo",
+      "name": "jiwo",
+      "repo": "jiwidi/jiwo",
+      "base": "Qwen3.5-0.8B / 4B",
+      "kind": "model",
+      "featured": false,
+      "url": "https://github.com/jiwidi/jiwo",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "searchJev",
+      "name": "SearchJev",
+      "repo": "EvoScientist/SearchJev",
+      "base": "Qwen3.5-0.8B / 4B",
+      "kind": "model",
+      "featured": false,
+      "url": "https://github.com/EvoScientist/SearchJev",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "cleffa",
+      "name": "cleffa",
+      "repo": "zknpr/cleffa",
+      "base": "Cloudflare Clef 27B / 9B",
+      "kind": "interface",
+      "featured": false,
+      "url": "https://github.com/zknpr/cleffa",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "phocinae",
+      "name": "Phocinae Largha",
+      "repo": "Phocinae/Phocinae-Largha-150M-v1",
+      "base": "mmBERT 144.3M",
+      "kind": "model",
+      "featured": false,
+      "url": "https://github.com/Phocinae/Phocinae-Largha-150M-v1",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "layaMain",
+      "name": "Laya Decision Engine",
+      "repo": "NandhaKishorM/laya",
+      "base": "Multilingual Laya checkpoints",
+      "kind": "model",
+      "featured": false,
+      "url": "https://github.com/NandhaKishorM/laya",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "vegaml",
+      "name": "VegaML",
+      "repo": "NandhaKishorM/vegaml",
+      "base": "Qwen3.5-0.8B / 4B",
+      "kind": "model",
+      "featured": false,
+      "url": "https://github.com/NandhaKishorM/vegaml",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "layaJava",
+      "name": "laya-java",
+      "repo": "apscot/laya-java",
+      "base": "Laya / ONNX Runtime Java",
+      "kind": "interface",
+      "featured": false,
+      "url": "https://github.com/apscot/laya-java",
+      "relationship": "community ecosystem",
+      "official": false
+    },
+    {
+      "key": "trainJev",
+      "name": "train-jev",
+      "repo": "shibing624/train-jev",
+      "base": "Qwen3.5-4B / Qwen3.8-27B",
+      "kind": "model",
+      "featured": false,
+      "url": "https://github.com/shibing624/train-jev",
       "relationship": "community ecosystem",
       "official": false
     }
