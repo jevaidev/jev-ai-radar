@@ -8,7 +8,7 @@
 
 ## Latest radar — October 14, 2026
 
-- **85 ranked GitHub projects** tracked with Stars, recent Star changes, licenses, languages, creation dates, and last commit times.
+- **86 ranked GitHub projects** tracked with Stars, recent Star changes, licenses, languages, creation dates, and last commit times.
 - **33 community System One projects** tracked separately from official Jev releases.
 - **25 selected use cases** from developers, product teams, X posts, and YouTube demonstrations.
 - The latest editorial snapshot is available in [`daily/2026/10/2026-10-14.md`](daily/2026/10/2026-10-14.md).
