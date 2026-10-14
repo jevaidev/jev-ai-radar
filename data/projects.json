@@ -641,6 +641,31 @@
       "lastVerifiedAt": "2026-10-14T05:22:51.467Z"
     },
     {
+      "name": "Jev Social",
+      "repository": "socai-io/jev-social",
+      "url": "https://github.com/socai-io/jev-social",
+      "kind": "App",
+      "summary": "A local-first social research app that uses Jev Choice to select read-only Instagram, TikTok and LinkedIn operations from observed targets; the socai CLI runs them in the user's Chrome and returns source-linked evidence.",
+      "scenarios": [
+        "search",
+        "agents",
+        "communication"
+      ],
+      "relatedCases": [
+        "recommendations",
+        "agents"
+      ],
+      "stars": 169,
+      "starDeltaSincePreviousSnapshot": 0,
+      "language": "JavaScript",
+      "license": "MIT",
+      "createdAt": "2026-09-18T18:48:15Z",
+      "lastCommitAt": "2026-10-12T09:01:18Z",
+      "archived": false,
+      "official": false,
+      "lastVerifiedAt": "2026-10-14T05:22:51.467Z"
+    },
+    {
       "name": "Jev Workflow Builder",
       "repository": "CTNicholas/jev-workflow-builder",
       "url": "https://github.com/CTNicholas/jev-workflow-builder",
